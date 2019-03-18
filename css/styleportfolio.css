@@ -1,0 +1,152 @@
+.img-fluid{
+	height: 35px; 
+}
+
+#malau{
+	background-color: #acd6d6; 
+	padding-bottom: 75px; 
+}
+#malau .img-fluid1{
+	height: 100px;
+	padding-top: 70px;
+}
+
+
+#malau .yo{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	
+	}
+
+
+
+#acercademi h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px; 
+	padding-top: 30px; 
+	padding-bottom: 50px; 
+}
+#acercademi{
+	background-color: #FFFFFF;
+	
+}
+#acercademi .bg-image{
+	background-image: url(../img/IMG_4140.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;
+	height: 553px; 
+	
+}
+#acercademi p{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px; 
+}
+#servicios{
+	background-color: #acd6d6;
+	text-align: center; 
+	padding-bottom: 50px; 
+}
+#servicios .serv{
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 50px; 
+	padding-top: 30px; 
+	padding-bottom: 50px;
+	text-align: center;
+}
+#servicios p{
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	font-size: 22px; 
+}
+.icon-counter{
+	font-size: 40px; 
+}
+#portafolio{
+	text-align: center; 
+	padding-bottom: 50px; 
+	
+}
+#portafolio h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 70px; 
+	padding-top: 30px; 
+	padding-bottom: 50px;
+}
+#portafolio .img-fluid3{
+	height: 250px; 
+}
+#portafolio .img-fluid4{
+	height: 230px; 
+	align-content: center; 
+
+}
+#portafolio .img-fluid5{
+	height: 200px; 
+}
+#portafolio h3{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px; 
+}
+#portafolio h4{
+	font-family: 'Quicksand', sans-serif;
+}
+.padre{
+	position: relative;
+}
+.hijo{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align:center;
+	opacity: 0;
+	transition:  all 0.3s ease-in-out;
+	bottom: 100%;
+}
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.hijo h3{
+	font-size:  14px;
+	text-transform: uppercase;
+}
+.hijo h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+#contacto{
+	background-color: #acd6d6;
+	padding-bottom: 50px; 
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	
+}
+#contacto h2{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px; 
+	text-align: center;
+	padding-bottom: 50px; 
+}
+
+	
+
+

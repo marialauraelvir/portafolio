@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,500,700|Volkhov:400,400i,700i');
+body{
+	font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'sans-serif;
+	font-size: 14px;
+	color: #666;
+	margin: 0;
+}
+
+header 
+{
+	background-color:transparent;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+	
+}
+header h1{
+	margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+#sec-hero{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	color: #fff;
+	background-image: url( ../img/finance_header_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 150px;
+	padding-bottom: 190px;
+
+}
+
+#sec-hero h4{
+	letter-spacing: 2px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+#sec-hero h1{
+	letter-spacing: 15px;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+#sec-hero a {
+	
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-transform: uppercase; 
+	padding: 7px 40px;
+}
+#sec-hero h4,
+#sec-hero h1{
+	font-weight: 400;
+	
+
+}
+.btn-transparente{
+    background: transparent;
+	text-transform: uppercase;
+	color: #fff;
+}
+.btn-transparente:hover{
+	color: black;
+	background-color: #fff;
+}
+#sec-quote{
+	background:#181717;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #AAAAAA;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: left;
+	
+}
+#sec-quote h3{
+	
+	font-size: 18px ;
+	letter-spacing: 1px ;
+	
+}
+#sec-quote h5 span{
+	background: black;
+	font-size: 12px ;
+	color: white;
+	letter-spacing: 1px ;
+	
+}
+.btn-transparent{
+    background:#C6BDBD; 
+	font-size: 11px ;
+	letter-spacing: 1px ;
+	text-transform: uppercase;
+	padding: 6px 40px;
+	margin-top: 10px ;
+	
+	border: 1px solid #000;
+}
+.btn-transparent:hover{
+	background-color: #fff;
+
+}
+.sec-espacio{
+	padding: 100px 0;
+}
+#sec-title h3{
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 10px;
+	text-align: center;
+	color: #111;
+	font-weight: 600;
+	font-family: bv;
+	
+}
+#sec-title p{
+	text-align: center;
+	font-size: 12px;
+}
+#sec-title .img-fluid{
+	height: 250px; 
+}
+
+#sec-icons{
+	
+	background-image: url( ../img/finance_funfact_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+	padding:100px 0px ;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+#sec-icons h3{
+	margin-top: 25px;
+	font-size: 20px;
+}
+#sec-icons p{
+	margin-top: 25px;
+	font-weight: 20;
+	margin-bottom: 100px;
+}
+
+.border{
+	
+  border-radius:100px ;
+  border: 1px solid #fff ;
+	height: 80px;
+	width: 80px;
+}
+#sec-practice{
+	border-bottom: 1px solid #eee;
+}
+
+#sec-practice .bg-image{
+	background-image: url( ../img/section-practice-areas.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;
+}
+
+#sec-cases{
+	padding-top: 25px; 
+}
+.titulo{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: #111;
+	margin-bottom: 40px;
+}
+
+.subtitulo{
+	font-family: 'Volkhov', serif;
+	font-size: 26px;
+	font-style: italic;
+}
+
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice h3{
+	font-size: 14px;
+	color: #111;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+.padre{
+	position: relative;
+}
+.hijo{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align:center;
+	opacity: 0;
+	transition:  all 0.3s ease-in-out;
+	bottom: 100%;
+}
+.padre:hover .hijo{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+	bottom: 50%;
+	transform: translateY(50%);
+}
+.hijo h3{
+	font-size:  14px;
+	text-transform: uppercase;
+}
+.hijo h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #aaa;
+}
+.bg-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.60);
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.padre:hover .bg-overlay{
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.icon-counter{
+	font-size: 40px; 
+}
+#sec-request{
+	padding-top: 50px;
+}
+
+#sec-blog {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#sec-blog.titulo,
+#sec-blog .subtitulo{
+	text-align: center;
+}
+
+#sec-blog .subtitulo{
+	font-size: 16px;
+	color: #000;
+	width: 60%;
+	margin: 20px auto 45px;
+	
+}
+
+.blog-info{
+	margin-top: 20px;
+}
+
+.blog-info .title{
+	border-bottom: 1px dotted #c2c2c2;
+	margin-bottom: 5px;
+}
+
+.blog-info .title h4{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.blog-info .title p{
+	color: #aaa;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.blog-info .title a,
+.blog-info .content a{
+	color: #000;
+	
+}
+.blog-info .title a:hover, 
+.blog-info .content a:hover{
+	color: #aaa;
+	text-decoration: none;
+	
+}
+
+#footer-menu{
+	background-color: #111;
+	color: #fff;
+	padding: 20px 0;
+}
+
+#footer-menu h3{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family:'Roboto Condensed', sans-serif;
+	border-bottom: 1px dotted #666;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+#footer-menu ul{
+	list-style: none;
+}
+
+#footer-menu ul a{
+	color: #aaa;
+}
+
+#footer-menu ul a:hover{
+	color: #fff;
+}
+
+#footer-copy{
+	background-color: #222;
+	color: #fff;
+	padding: 10px 0;
+	border-top: 1px solid #333;
+	
+}
+
+#footer-copy a{
+	color:#aaa;
+	
+}
+
+#footer-copy a:hover{
+	color:#fff;
+	
+}
+
+
+
+
+
